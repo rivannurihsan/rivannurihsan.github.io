@@ -13,6 +13,8 @@ import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiWireshark,
+  SiSplunk,
 } from "react-icons/si";
 
 function Techstack() {
@@ -46,7 +48,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiSplunk />
       </Col>
     </Row>
   );

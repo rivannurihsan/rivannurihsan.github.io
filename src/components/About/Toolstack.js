@@ -6,6 +6,27 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiSplunk,
+  SiCodeigniter,
+  SiDebian,
+  SiElasticsearch,
+  SiGit,
+  SiGitlab,
+  SiGithub,
+  SiJava,
+  SiJavascript,
+  SiKubuntu,
+  SiLaravel,
+  SiMicrosoft,
+  SiMacos,
+  SiNodedotjs,
+  SiPowershell,
+  SiPython,
+  SiPhp,
+  SiReact,
+  SiSass,
+  SiWireshark,
+  SiWordpress
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,6 +34,9 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSplunk />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
